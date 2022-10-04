@@ -1,0 +1,49 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.label_span{
+    margin-top: 3em;
+    margin-bottom: .6em;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.form input{
+    margin: 0 auto;
+    padding: .3em .2em;
+    border: none;
+    width: 400px;
+    border-bottom: 2px solid #aaa;
+    border-left: 4px solid #aaa;
+}
+
+.form input:focus {
+    background-color: rgb(10, 15, 15);
+    color:aqua;
+}
+
+.form button {
+    align-self: center;
+    width: 100px;
+    margin: 1em 0;
+    padding: .5em;
+    background-color: rgb(10, 15, 15);
+    color:aqua;
+    border-radius: 15px;
+    font-size: 1.2em;   
+}
+
+.form button:hover {
+    background-color: aqua;
+    color: rgb(10, 15, 15); 
+}
